@@ -1,12 +1,5 @@
+$yellow:  #ffc107;
 
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1400px,
-  xxxl: 1980px
-);
+$primary: $yellow;
 
-$link-color:    $primary;
-$link-decoration: none;
+$btn-primary: $primary;
