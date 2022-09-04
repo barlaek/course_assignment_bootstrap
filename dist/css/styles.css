@@ -1,3 +1,11 @@
+/* Error: Undefined variable.
+ *    ,
+ * 39 |   "gray":       $gray-600,
+ *    |                 ^^^^^^^^^
+ *    '
+ *   src/scss/_variables.scss 39:17  @import
+ *   src/scss/styles.scss 1:9        root stylesheet */
+
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
@@ -6,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Undefined variable.\a    \2577 \a 33 \2502    "black":      $black,\d\a    \2502                  ^^^^^^\a    \2575 \a   src/scss/_variables.scss 33:17  @import\a   src/scss/styles.scss 1:9        root stylesheet';
+  content: 'Error: Undefined variable.\a    \2577 \a 39 \2502    "gray":       $gray-600,\d\a    \2502                  ^^^^^^^^^\a    \2575 \a   src/scss/_variables.scss 39:17  @import\a   src/scss/styles.scss 1:9        root stylesheet';
 }
